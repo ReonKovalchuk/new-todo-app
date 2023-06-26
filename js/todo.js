@@ -82,12 +82,9 @@ async function createTodoList() {
 function createTaskElement(task) {
 
     let item = document.createElement('li');
-    // let itemGroup = document.createElement('div');
     let checkInput = document.createElement('input');
     let deleteBtn = document.createElement('button');
     let label = document.createElement('label')
-
-    // itemGroup.classList.add('input-group', 'mb-1');
 
     item.classList.add('list-group-item', 'list-item');
     item.innerHTML = '<i class="bi bi-list me-3"></i>';
@@ -171,9 +168,6 @@ async function createTodoApp(containerClass = '.todo-app',) {
 
 document.addEventListener('DOMContentLoaded', function () {
 
-
     createTodoApp();
-
-
 
 });
