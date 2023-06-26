@@ -1,0 +1,58 @@
+.app-container {
+    padding: 12px;
+    border: 1px solid #4a4a4a;
+    border-radius: 10px;
+}
+
+.list-group-item {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    cursor: grab;
+}
+
+.list-item:hover {
+    background-color: #eee;
+}
+
+.form-check-label {
+    flex-grow: 1;
+}
+
+.form-check-input {
+    font-size: 14px;
+}
+
+.task-done {
+    text-decoration: line-through;
+    color: rgba(33, 37, 41, 0.75);
+}
+
+.delete-btn {
+    border: none;
+    background-color: transparent;
+    color: #6c757d;
+    transition: color 0.1s ease-out;
+}
+
+.delete-btn:hover {
+    color: var(--bs-red);
+}
+
+.bi {
+    font-size: 20px;
+}
+
+.bi-list {
+    color: #ddd;
+}
+
+.form-check-input:checked {
+    background-color: var(--bs-gray);
+    border-color: var(--bs-gray);
+}
+
+.form-check-input:focus {
+    border-color: var(--bs-gray-600);
+    box-shadow: 0 0 0 .15rem rgba(108, 117, 125, 0.25)
+}
