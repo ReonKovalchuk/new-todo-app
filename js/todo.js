@@ -112,7 +112,7 @@ function createTaskElement(task) {
         if (confirm('Удалить элемент из списка?')) {
 
             deleteTodoItemFromServer(checkInput.getAttribute('id'))
-            itemGroup.remove();
+            item.remove();
 
         }
     });
